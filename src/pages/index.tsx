@@ -1,12 +1,12 @@
-import NavBar from "../components/Navbar"
+import NavBar from "@/components/NavBar"
 import Disconnected from "@/components/Disconnected"
 import { Box, Center, Spacer, Stack } from "@chakra-ui/react"
 import type { NextPage } from "next"
 import Head from "next/head"
-import styles from "../styles/Home.module.css"
+import styles from "@/styles/Home.module.css"
 
 import { useWallet } from "@solana/wallet-adapter-react"
-import Connected from "../components/Connected"
+import Connected from "@/components/Connected"
 
 const Home: NextPage = () => {
 
